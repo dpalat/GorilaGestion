@@ -1,6 +1,9 @@
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/
 [Oo]bj/
+_Pvt_Extensions/
+Temp/
+GeneratedArtifacts/
 
 # mstest test results
 TestResults
@@ -12,6 +15,7 @@ TestResults
 *.suo
 *.user
 *.sln.docstates
+ModelManifest.xml
 
 # Build results
 [Dd]ebug/

@@ -4,6 +4,8 @@
 _Pvt_Extensions/
 Temp/
 GeneratedArtifacts/
+_UpgradeReport_Files/
+Backup/
 
 # mstest test results
 TestResults
@@ -16,6 +18,7 @@ TestResults
 *.user
 *.sln.docstates
 ModelManifest.xml
+UpgradeLog.htm
 
 # Build results
 [Dd]ebug/

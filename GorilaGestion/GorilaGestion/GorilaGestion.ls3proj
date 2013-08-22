@@ -27,6 +27,7 @@
     <SqlExpressInstanceName>(LocalDB)\v11.0</SqlExpressInstanceName>
     <LightSwitchProjectTypeV3>LightSwitch</LightSwitchProjectTypeV3>
     <DefaultLanguage>en-US</DefaultLanguage>
+    <DebugSharePointAuthenticationType>AccessControlService</DebugSharePointAuthenticationType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>

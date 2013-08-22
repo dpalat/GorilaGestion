@@ -17,7 +17,7 @@
     <LightSwitchVersion>v3.0</LightSwitchVersion>
     <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
     <SilverlightApplication>true</SilverlightApplication>
-    <SupportedCultures>en-US</SupportedCultures>
+    <SupportedCultures>es</SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
     <XapFilename>GorilaGestion.Client.xap</XapFilename>
@@ -34,7 +34,7 @@
     <WCFRIASERVICESSDKPath Condition=" '$(WCFRIASERVICESSDKPath)' == '' ">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WCFRIAServices\v1.0@InstallPath)</WCFRIASERVICESSDKPath>
     <WCFRIASERVICESSDKPath Condition=" '$(WCFRIASERVICESSDKPath)' == '' ">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\WCFRIAServices\v1.0@InstallPath)</WCFRIASERVICESSDKPath>
     <LightSwitchProjectTypeV3>Client</LightSwitchProjectTypeV3>
-    <DefaultLanguage>en-US</DefaultLanguage>
+    <DefaultLanguage>es</DefaultLanguage>
     <LightSwitchProjectSubType>Silverlight</LightSwitchProjectSubType>
     <MicrosoftSdkDir Condition="'$(MicrosoftSdkDir)' == ''">$([System.IO.Path]::Combine($(MSBuildProgramFiles32), 'Microsoft SDKs'))</MicrosoftSdkDir>
     <LightSwitchSdkPath Condition="'$(LightSwitchSdkPath)' == ''">$([System.IO.Path]::Combine($(MicrosoftSdkDir), 'LightSwitch', $(LightSwitchVersion)))</LightSwitchSdkPath>
@@ -172,6 +172,9 @@
     </ServiceMetadataReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Server\UserCode\Shared\Articulo.cs">
+      <Link>UserCode\Shared\Articulo.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
